@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="padding: 6%">
+<div class= "calculator">
+	<div class="output">
+		<div class="operation1"></div>
+		<div class="operation2"></div>
+	</div>
+	<table>
+		<tr>
+			<td colspan="2"><button onclick="erase()" style="width: 122px"><b>AC</b></button></td>
+			<td><button onclick="signKey('/')">/</button></td>
+			<td><button onclick="signKey('x')">X</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="numKey(7)">7</button></td>
+			<td><button onclick="numKey(8)">8</button></td>
+			<td><button onclick="numKey(9)">9</button></td>
+			<td><button onclick="signKey('-')">-</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="numKey(4)">4</button></td>
+			<td><button onclick="numKey(5)">5</button></td>
+			<td><button onclick="numKey(6)">6</button></td>
+			<td><button onclick="signKey('+')">+</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="numKey(1)">1</button></td>
+			<td><button onclick="numKey(2)">2</button></td>
+			<td><button onclick="numKey(3)">3</button></td>
+			<td rowspan="2"><button onclick="calculate()" style="height: 122px;"><b>=</b></button></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button onclick="numKey(0)" style="width: 122px">0</button></td>
+			<td><button onclick="numKey('.')">.</button></td>
+		</tr>
+
+	</table>
+
+</div>
+
+
+
+<script type="text/javascript" src="script.js">
+
+</script>
+
+
+
+</body>
+</html>
